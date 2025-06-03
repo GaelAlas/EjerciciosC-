@@ -26,7 +26,6 @@ float division (float uno, float dos){
         float resultado = 0;
 
         if(uno<dos || uno==0 || dos==0){
-            cout<<"La division no se puede"<<endl;
             resultado=1000;
         }else{
             resultado = uno / dos;
@@ -55,8 +54,12 @@ int main(){
     cout<<"Resultado de la segunda suma: "<<sumatoria2<<endl;
     cout<<"Resultado de la resta: "<<resultadoResta<<endl;
     cout<<"Resultado de la multiplicacion: "<<resultadoMultiplicacion<<endl;
+    if(resultadoDivision=5000){
+        cout<<"La division no se puede"<<endl;
+    }
+    else{
     cout<<"Resultado de la division: "<<resultadoDivision<<endl;
-
+    }
 
 
     return 0;
